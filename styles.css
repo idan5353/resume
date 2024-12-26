@@ -1,0 +1,571 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body and page layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background: linear-gradient(45deg, #1e2a47, #6a7fca); 
+   
+    color: #f1f1f1;
+    line-height: 1.6;
+    overflow-x: hidden;
+    
+}
+.pdf-icon img {
+    width: 35px; /* Adjust the size of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 5px; /* Space between other icons */
+    cursor: pointer; /* Indicates it is clickable */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.pdf-icon img:hover {
+    transform: scale(1.1); /* Slight zoom effect when hovered */
+}
+/* Navbar Styling */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.who-am-i-btn {
+    background-color: #e67e00; /* Orange color */
+    color: white;
+    padding: 20px 70px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 50px;
+   
+    font-weight: 500;
+    font-size: x-large;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.who-am-i-btn:hover {
+    background-color: #ffb600; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+.who-am-i-btn:active {
+    background-color: #cc8400; /* Even darker orange when clicked */
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+nav .nav-links li {
+    list-style: none;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #ffb600;
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 150px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-text {
+    max-width: 50%;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.7rem;
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+}
+
+/* About Section */
+.about {
+    padding: 30px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Section */
+.skills {
+    background: #212b41;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffb600;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: #2a3b57;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    background: #ffb600;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card i {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.skill-card h3 {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    text-align: center;
+    background: #1e2a47;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffb600;
+}
+
+.contact .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
+}
+.contactlogos .social-links{
+
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.contactlogos i {
+    font-size: 2.5rem; /* Larger icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; /* Smaller text size */
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-align: center; /* Center the text below the icons */
+}
+
+.contact-link:hover {
+    color: #ffb600;
+}
+
+.contact i {
+    font-size: 8rem; /* Larger icon size */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+/* Optional: Adjust icon size on hover if desired */
+.contact-link:hover i {
+    transform: scale(1.1); /* Slightly scale the icon when hovered */
+}
+
+/* Footer Section */
+footer {
+    background: #212b41;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #ffb600;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.projects {
+    background: #2a3b57;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffb600;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-item {
+    background: #3c4e7c;
+    padding: 20px;
+    width: calc(50% - 10px);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  /* Ensures the button is pushed to the bottom */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.project-item:hover {
+    background: #ffb600;
+    transform: scale(1.05);
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.project-item:hover .project-image {
+    transform: scale(1.1);
+}
+
+.project-text {
+    padding: 0 15px;
+    margin-bottom: auto;  /* Pushes the content above the button */
+}
+
+.project-item h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+}
+
+.github-button {
+    background-color: #ffb600;
+    color: #2a3b57;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.github-button:hover {
+    background-color: #ff9000;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%; /* Stacks projects vertically on smaller screens */
+    }
+}
+
+
+
+/* Certifications Section */
+.certifications {
+    background: #2a3b57;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+.certifications h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffb600;
+}
+
+.certification-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #3c4e7c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.certification-item:hover {
+    transform: scale(1.05);
+    background: #ffb600;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.certification-info {
+    width: 60%;
+    padding: 20px;
+}
+
+.certification-info h3 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.certification-info p {
+    font-size: 1.1rem;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+.certification-image {
+    width: 30%;
+    padding: 10px;
+}
+
+.certification-img {
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+/* General Container Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+/* Slider Container */
+/* Slider Container */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Slider - Holds all the slides */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Each slide */
+.slide {
+    min-width: 100%;
+    display: none; /* Hide slides by default */
+    position: relative;
+}
+
+/* Make the active slide visible */
+.slide.active {
+    display: block;
+}
+
+/* Styling for the images */
+.slide-image img {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 310px;
+}
+
+/* Styling for the slide info (text) */
+.slide-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Start with the description hidden */
+    transform: translateY(20px); /* Slightly translate the description down */
+    margin-left: 140px;
+}
+
+/* Slide description becomes visible when the slide is active */
+.slide.active .slide-info {
+    opacity: 1;
+    transform: translateY(0); /* Slide the description up into view */
+}
+
+/* Title Styling for Slide Descriptions */
+.slide-info h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Paragraph Styling for Slide Descriptions */
+.slide-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Arrows */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Hover effect for navigation arrows */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
