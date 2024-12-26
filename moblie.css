@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .contactlogos .social-links {
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        padding: 100px 20px; /* Reduce padding for smaller screens */
+        text-align: center; /* Center align for better readability */
+    }
+
+    header .header-content {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 20px; /* Add space between stacked elements */
+    }
+
+    .header-text {
+        max-width: 100%; /* Allow text to use full width */
+    }
+
+    header h1 {
+        font-size: 2.5rem; /* Reduce font size for mobile */
+    }
+
+    header p {
+        font-size: 1.2rem; /* Adjust paragraph text */
+    }
+
+    .profile-image {
+        width: 200px; /* Reduce image size for mobile */
+        height: 200px; /* Maintain aspect ratio */
+    }
+}
+@media (max-width: 768px) {
+    .road-to-achievement {
+        padding: 40px 20px; /* Reduce padding for smaller screens */
+        text-align: center; /* Center align text */
+    }
+
+    .achievement-list {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Add spacing between stacked items */
+    }
+
+    .achievement-card {
+        width: 100%; /* Allow cards to occupy full width */
+        padding: 20px; /* Adjust padding for better fit */
+    }
+
+    .achievement-card h3 {
+        font-size: 1.3rem; /* Reduce heading size */
+    }
+
+    .achievement-card p {
+        font-size: 1rem; /* Adjust text size */
+    }
+}
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px 20px; /* Adjust padding */
+        text-align: center; /* Center align content */
+    }
+
+    .contact h2 {
+        font-size: 1.8rem; /* Reduce heading size */
+        margin-bottom: 20px; /* Adjust spacing */
+    }
+
+    .contact .social-links {
+        flex-direction: column; /* Stack icons vertically */
+        gap: 15px; /* Add space between icons */
+        align-items: center; /* Center align icons */
+    }
+
+    .contactlogos .social-links {
+        width: 100%; /* Use full width for icons */
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
+
+    .contactlogos i {
+        font-size: 1.8rem; /* Adjust icon size */
+    }
+
+    .contact-link {
+        font-size: 0.9rem; /* Reduce link text size */
+    }
+}
+/* Apply styles only for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Header Section */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 120px; /* Smaller size for mobile */
+        height: 120px;
+    }
+
+    .header-text h1 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .header-text p {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    /* Skills Section */
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .skill {
+        flex: 0 0 48%; /* Two skills per row */
+    }
+
+    /* Road-to-Achievement Section */
+    .road-to-achievement h2 {
+        font-size: 1.5rem; /* Adjust section title */
+    }
+
+    .achievement-card {
+        flex: 0 0 100%; /* Full width for achievements */
+        margin-bottom: 15px;
+    }
+}

@@ -569,3 +569,17 @@ footer {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.9);
 }
+@media (max-width: 768px) {
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .contactlogos .social-links {
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 20px;
+    }
+}
+
