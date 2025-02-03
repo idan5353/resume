@@ -3,7 +3,9 @@
 Welcome to my personal resume website! 🎉 This site showcases my skills, achievements, and my journey toward earning my AWS certification. Built with **HTML**, **CSS**, and **JavaScript**, it offers a clean and interactive way to explore my qualifications and growth.
 
 ## 📜 Website Overview
+![pic1](https://github.com/user-attachments/assets/eb5c1889-c656-4444-9c06-92460a2612e4)
 
+ ![pic2](https://github.com/user-attachments/assets/87056cc3-9b3f-4fd1-b66a-08b25d2edbdb)
 This website highlights:
 
 - 🛠️ **My Skills**: Technologies I’m proficient in and areas of expertise.
@@ -56,8 +58,4 @@ To run the project locally:
    ```bash
    git clone https://github.com/your-username/your-resume-website.git
 
-   ![pic1](https://github.com/user-attachments/assets/eb5c1889-c656-4444-9c06-92460a2612e4)
-
-   ![pic2](https://github.com/user-attachments/assets/87056cc3-9b3f-4fd1-b66a-08b25d2edbdb)
    
-
