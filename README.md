@@ -56,6 +56,6 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-resume-website.git
+   git clone https://github.com/idan5353/resume.git
 
    
